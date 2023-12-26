@@ -11,8 +11,11 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
-      '@configs': resolve(__dirname, 'src/configs'),
-      '@creator': resolve(__dirname, 'src/creator'),
+    },
+  },
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly',
     },
   },
 });

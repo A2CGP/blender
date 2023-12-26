@@ -22,9 +22,7 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@configs/*": ["./src/configs/*"],
-      "@creator/*": ["./src/creator/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"],

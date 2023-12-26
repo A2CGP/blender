@@ -1,0 +1,5 @@
+.status-bar {
+  height: 26px;
+
+  @apply bg-black text-white;
+}

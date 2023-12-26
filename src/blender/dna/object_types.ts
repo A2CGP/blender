@@ -7,5 +7,5 @@ export enum DNAObjectType {
 export interface DNAObject {
   id: DNAID;
   type: DNAObjectType;
-  data: DNAID | null;
+  data: { id: DNAID } | null;
 }
